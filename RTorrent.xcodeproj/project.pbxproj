@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6B0C3416135C3E008F4B24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6B0C3316135C3E008F4B24 /* Cocoa.framework */; };
+		EB6B0C3616135C3E008F4B24 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6B0C3516135C3E008F4B24 /* MacRuby.framework */; };
+		EB6B0C3F16135C3E008F4B24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB6B0C3D16135C3E008F4B24 /* InfoPlist.strings */; };
+		EB6B0C4116135C3E008F4B24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6B0C4016135C3E008F4B24 /* main.m */; };
+		EB6B0C4616135C3E008F4B24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB6B0C4416135C3E008F4B24 /* MainMenu.xib */; };
+		EB6B0C4916135C3F008F4B24 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB6B0C4816135C3F008F4B24 /* rb_main.rb */; };
+		EB6B0C4B16135C3F008F4B24 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = EB6B0C4A16135C3F008F4B24 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6B0C3816135C3E008F4B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6B0C2616135C3E008F4B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6B0C2E16135C3E008F4B24;
+			remoteInfo = RTorrent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB6B0C2F16135C3E008F4B24 /* RTorrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTorrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6B0C3316135C3E008F4B24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB6B0C3516135C3E008F4B24 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		EB6B0C3C16135C3E008F4B24 /* RTorrent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTorrent-Info.plist"; sourceTree = "<group>"; };
+		EB6B0C3E16135C3E008F4B24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB6B0C4016135C3E008F4B24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB6B0C4216135C3E008F4B24 /* RTorrent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTorrent-Prefix.pch"; sourceTree = "<group>"; };
+		EB6B0C4516135C3E008F4B24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB6B0C4816135C3F008F4B24 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		EB6B0C4A16135C3F008F4B24 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6B0C2C16135C3E008F4B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B0C3416135C3E008F4B24 /* Cocoa.framework in Frameworks */,
+				EB6B0C3616135C3E008F4B24 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6B0C2416135C3E008F4B24 = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C3A16135C3E008F4B24 /* RTorrent */,
+				EB6B0C3216135C3E008F4B24 /* Frameworks */,
+				EB6B0C3016135C3E008F4B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6B0C3016135C3E008F4B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C2F16135C3E008F4B24 /* RTorrent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6B0C3216135C3E008F4B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C3316135C3E008F4B24 /* Cocoa.framework */,
+				EB6B0C3516135C3E008F4B24 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6B0C3A16135C3E008F4B24 /* RTorrent */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C4A16135C3F008F4B24 /* AppDelegate.rb */,
+				EB6B0C4316135C3E008F4B24 /* Resources */,
+				EB6B0C4716135C3F008F4B24 /* Other Sources */,
+				EB6B0C3B16135C3E008F4B24 /* Supporting Files */,
+			);
+			path = RTorrent;
+			sourceTree = "<group>";
+		};
+		EB6B0C3B16135C3E008F4B24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C3C16135C3E008F4B24 /* RTorrent-Info.plist */,
+				EB6B0C3D16135C3E008F4B24 /* InfoPlist.strings */,
+				EB6B0C4016135C3E008F4B24 /* main.m */,
+				EB6B0C4216135C3E008F4B24 /* RTorrent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB6B0C4316135C3E008F4B24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C4416135C3E008F4B24 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB6B0C4716135C3F008F4B24 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B0C4816135C3F008F4B24 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		EB6B0C3716135C3E008F4B24 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = EB6B0C5116135C3F008F4B24 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				EB6B0C3916135C3E008F4B24 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		EB6B0C2E16135C3E008F4B24 /* RTorrent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6B0C4E16135C3F008F4B24 /* Build configuration list for PBXNativeTarget "RTorrent" */;
+			buildPhases = (
+				EB6B0C2B16135C3E008F4B24 /* Sources */,
+				EB6B0C2C16135C3E008F4B24 /* Frameworks */,
+				EB6B0C2D16135C3E008F4B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTorrent;
+			productName = RTorrent;
+			productReference = EB6B0C2F16135C3E008F4B24 /* RTorrent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6B0C2616135C3E008F4B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Gryff Ind.";
+			};
+			buildConfigurationList = EB6B0C2916135C3E008F4B24 /* Build configuration list for PBXProject "RTorrent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB6B0C2416135C3E008F4B24;
+			productRefGroup = EB6B0C3016135C3E008F4B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6B0C2E16135C3E008F4B24 /* RTorrent */,
+				EB6B0C3716135C3E008F4B24 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6B0C2D16135C3E008F4B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B0C3F16135C3E008F4B24 /* InfoPlist.strings in Resources */,
+				EB6B0C4616135C3E008F4B24 /* MainMenu.xib in Resources */,
+				EB6B0C4916135C3F008F4B24 /* rb_main.rb in Resources */,
+				EB6B0C4B16135C3F008F4B24 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6B0C2B16135C3E008F4B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6B0C4116135C3E008F4B24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6B0C3916135C3E008F4B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6B0C2E16135C3E008F4B24 /* RTorrent */;
+			targetProxy = EB6B0C3816135C3E008F4B24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB6B0C3D16135C3E008F4B24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6B0C3E16135C3E008F4B24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB6B0C4416135C3E008F4B24 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6B0C4516135C3E008F4B24 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6B0C4C16135C3F008F4B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB6B0C4D16135C3F008F4B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB6B0C4F16135C3F008F4B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTorrent/RTorrent-Prefix.pch";
+				INFOPLIST_FILE = "RTorrent/RTorrent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB6B0C5016135C3F008F4B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTorrent/RTorrent-Prefix.pch";
+				INFOPLIST_FILE = "RTorrent/RTorrent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB6B0C5216135C3F008F4B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EB6B0C5316135C3F008F4B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6B0C2916135C3E008F4B24 /* Build configuration list for PBXProject "RTorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6B0C4C16135C3F008F4B24 /* Debug */,
+				EB6B0C4D16135C3F008F4B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6B0C4E16135C3F008F4B24 /* Build configuration list for PBXNativeTarget "RTorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6B0C4F16135C3F008F4B24 /* Debug */,
+				EB6B0C5016135C3F008F4B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB6B0C5116135C3F008F4B24 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6B0C5216135C3F008F4B24 /* Debug */,
+				EB6B0C5316135C3F008F4B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6B0C2616135C3E008F4B24 /* Project object */;
+}

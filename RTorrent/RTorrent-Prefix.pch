@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RTorrent' target in the 'RTorrent' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
